@@ -5,9 +5,9 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     projects = [
-        {"title": "Project Alpha", "desc": "A web application built with Flask."},
-        {"title": "Project Beta", "desc": "Data analysis tool using Python."},
-        {"title": "Project Gamma", "desc": "Mobile app developed in Flutter."}
+        {"title": "Project money", "desc": ""},
+        {"title": "Project Dress shop", "desc": ""},
+        {"title": "Project Loosu-Bunda", "desc": ""}
     ]
     return render_template('index.html', projects=projects)
 
