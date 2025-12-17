@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VickyPortfolio</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,23 +22,24 @@
 
     <section id="home" class="hero">
         <h1>Hello, I am Vicky</h1>
-        <p>Building nothing and know nothing</p>
+        <p>Building nothing and knows nothing</p>
     </section>
 
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="project-grid">
-            {% for project in projects %}
             <div class="card">
-                <h3>{{ project.title }}</h3>
-                <p>{{ project.desc }}</p>
+                <h3>Project 1</h3>
+                <p>On going</p>
             </div>
-            {% endfor %}
+            <p>what do i add here</p>
         </div>
     </section>
 
     <footer id="contact">
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=tc4Dxkrh_QZNVTQr" target="_blank">
         <p>Contact: vignesh@pornhub.com</p>
+        </a>
         <p>2025</p>
     </footer>
 
