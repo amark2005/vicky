@@ -81,3 +81,12 @@ footer {
 #contact a:hover {
     color: #e2e2e2;
 }
+
+#rich {
+    color: #fff;
+    text-decoration: none;
+}
+
+#rich:hover {
+    color: #e2e2e2;
+}
