@@ -83,7 +83,8 @@ footer {
 }
 
 #rich {
-    color: #fff;
+    color: #000000;
+    background: #fff;
     text-decoration: none;
 }
 
