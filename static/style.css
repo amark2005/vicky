@@ -72,3 +72,12 @@ footer {
     color: #fff;
     margin-top: 2rem;
 }
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #e2e2e2;
+}
