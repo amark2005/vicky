@@ -36,15 +36,7 @@ nav ul li a {
     padding: 0 1rem;
 }
 
-.hero {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #e2e2e2;
-    text-align: center;
-}
+
 
 .container {
     width: 90%;
@@ -83,7 +75,7 @@ footer {
 }
 
 
-/* From Uiverse.io by adamgiebl */ 
+/* From Uiverse.io by adamgiebl */  /* yes i borrowed this piece of code from uiverse.io because i was lazy*/
 #rich-butt {
   background-color: #e0e0e0;
   border-radius: 50px;
@@ -103,4 +95,32 @@ footer {
 #rich-butt:focus {
   outline: none;
   box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#vicky-pic {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 2;
 }
