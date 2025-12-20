@@ -84,10 +84,5 @@ footer {
 
 #rich {
     color: #000000;
-    background: #fff;
     text-decoration: none;
-}
-
-#rich:hover {
-    color: #e2e2e2;
 }
