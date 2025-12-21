@@ -23,10 +23,10 @@
     </header>
 
     <section id="home" class="hero">
-        <img id="vicky-pic" src="{{ url_for('static', filename='vicky.png') }}" >
+        <img id="vicky-pic" src="{{ url_for('static', filename='vicky.png') }}">
         <div class="hero-text">
             <h1>Hello, I am Vicky Diddy</h1>
-        <p>Part of Life, Broooo!!</p>
+            <p>Part of Life, Broooo!!</p>
         </div>
     </section>
 
@@ -38,7 +38,9 @@
                 <li>C++ programming</li>
                 <li>Java programming</li>
                 <li>Python programming</li>
-                <li><button type="button" id="rich-butt" onclick="window.open('https://c.tenor.com/qbjLJgEorrcAAAAC/justice-league-justice-league-movie.gif')">Click here For My Secret Skill 🤫</button></li>
+                <li><button type="button" id="rich-butt"
+                        onclick="window.open('https://c.tenor.com/qbjLJgEorrcAAAAC/justice-league-justice-league-movie.gif')">Click
+                        here For My Secret Skill 🤫</button></li>
             </ul>
         </div>
     </section>
@@ -66,9 +68,35 @@
                 <h3>Project 1</h3>
                 <p>On going</p>
             </div>
-            <p>Featured Soon</p>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>Soon</p>
+            </div>
         </div>
     </section>
+
+    <section id="work" class="container">
+        <h2>Work Experience</h2>
+
+        <!-- work 1 -->
+        <div class="project-grid">
+            <div class="card">
+                <h3>Selva textile</h3>
+                <p>Branch Manager</p>
+                <p>2005-present</p>
+            </div>
+
+            <!-- work 2 -->
+            <div class="card">
+                <h3>Central Bus Stand</h3>
+                <p>Social Service</p>
+                <p>2023-2025</p>
+            </div>
+            <p></p>
+        </div>
+
+    </section>
+
 
     <footer id="contact">
         Contact:
