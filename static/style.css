@@ -75,26 +75,27 @@ footer {
 }
 
 
-/* From Uiverse.io by adamgiebl */  /* "yes i borrowed this piece of code from uiverse.io because i was lazy" - Amar Keshav*/
+/* From Uiverse.io by adamgiebl */
+/* "yes i borrowed this piece of code from uiverse.io because i was lazy" - Amar Keshav*/
 #rich-butt {
-  background-color: #e0e0e0;
-  border-radius: 50px;
-  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
-  color: #4d4d4d;
-  cursor: pointer;
-  font-size: 15px;
-  padding: 13px 5px;
-  transition: all 0.2s ease-in-out;
-  border: 1px solid rgb(206, 206, 206);
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    color: #4d4d4d;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 13px 5px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgb(206, 206, 206);
 }
 
 #rich-butt:hover {
-  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+    box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
 }
 
 #rich-butt:focus {
-  outline: none;
-  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+    outline: none;
+    box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
 }
 
 .hero {
