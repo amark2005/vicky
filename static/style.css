@@ -125,3 +125,12 @@ footer {
     text-align: center;
     z-index: 2;
 }
+
+.project-link {
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: darkblue;
+    text-decoration: none;
+}
